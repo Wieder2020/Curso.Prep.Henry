@@ -105,9 +105,9 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  let resto = x % y;
+  return x % y;
 }
-obtenerResto(resto)
+
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
